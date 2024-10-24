@@ -1,0 +1,563 @@
+body{ 
+    margin: 0; 
+    color: #19191C;
+    font: 400 18px/28px Inter, sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    display: flex;
+    padding: 36px ;
+   justify-content: space-between;
+   background-color: #EFEFF2;
+}  
+.header_wraper{
+    display: flex;
+    justify-content: space-between;
+}  
+.header__box{
+    align-items: center;
+    display: flex;
+    gap: 68px; 
+    justify-content: flex-start;
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;   
+}
+.btn-box{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.logo{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color:#19191C;
+    text-decoration: none;
+}
+.link{
+    color:#19191C;
+    text-decoration: none;  
+}
+.header__link{
+    color:#19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600; 
+    text-decoration: none;    
+}
+.header__btn{
+    background: #19191C;
+    color: #EFEFF2;
+    text-decoration: none; 
+    padding: 12px 37px; 
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;  
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 230px;
+    background-color: #EFEFF2;
+    background-image: url(../img/business-finance-employment-female-successful-entrepreneurs-concept-confident-smiling-asian-businesswoman-office-worker-white-suit-glasses-using-laptop-help-clients\ 1.png), url(../img/Rectangle.png), url(../img/gradient.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%, 80% 100%, 0 80px;
+}
+.offer__holder{
+  
+    max-width: 648px;
+    height: 636px;
+    padding-top: 249px;
+}
+.offer__title{
+    display: flex;
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700; 
+    width: 594px;
+}
+.offer__list{
+    flex-grow: 1;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.offer__discription{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400; 
+    color: #19191C;
+    gap: 50px;
+}
+.button{
+    text-decoration: none; 
+    padding: 16px 37px; 
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #FBFBFC;
+    background-color: #504DEE; 
+    margin: 0 0 100px; 
+}
+
+.offer__sale{
+    font-size: 58px;
+    line-height: 71px;
+    font-weight: 700; 
+    color: #19191C;
+    display: flex; 
+    margin: 0;
+}
+.offer__time{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+.border-underline {
+  border-bottom: 4px solid #504DEE;  
+  padding-bottom: 2px;
+  display: inline-block;
+}
+.offer__item{
+    position: absolute;
+    border: 2px solid #19191C ;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    padding: 16px 36px;
+}
+.offer__invision{
+    top: -550px;
+    right: 100px;
+}
+.offer__miro{
+    top: -550px;
+    right: 540px;  
+}
+.offer__protopie{
+    top: -650px;
+    right: 340px;
+}
+.offer__photoshop{
+    top: -350px;
+    right: 540px;
+}
+.offer__figma{
+    top: -210px;
+    right: 790px;
+}
+.offer__illustration{
+    top: -40px;
+    right: 700px;
+}
+.profession_background{
+    background-color: #FBFBFC;
+}
+.profession{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 169px 0 169px 0;
+   
+}
+.profession__discription{
+    padding-top: 28px;
+    margin: 0;
+    color: #6D6D77;
+}
+.profession__item__box {
+    align-items: center;
+   background-color: #FBFBFC;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;  
+}
+
+.profession__counters__number{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 71px;
+    margin: 0;
+}
+
+.title{
+font-weight: 700;
+font-size: 58px;
+line-height: 71px;
+margin: 0;
+}
+.title__per__month{
+ font-weight: 700;
+ font-size: 58px;
+ line-height: 71px;
+ margin-bottom: 18px;
+ margin-top: 0;
+}
+.profession__text{
+    width: 588px;
+}
+.price__number__all{
+    color: #6D6D77;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 0;
+}
+.profession__item__title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 28px;
+}
+.profession__counters__discription{
+    color: #6D6D77;
+}
+.profession_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 467px;
+    
+}
+.profession__item_1 { 
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DEEFE4;
+    padding: 68px 48px;
+}
+.profession__item_2 {
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#F3F3D7;
+    padding: 68px 48px;
+}
+.profession__item_3 {
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EFDEEE;
+    padding: 68px 48px;
+}
+.prices{
+    background-color: #FBFBFC;
+}
+.prices__option{
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+}
+.price__border{
+    margin: 0;
+    padding: 171px 0 100px 0;
+    width: 594px;
+}
+.prices__discription{
+    padding-left: 20px;
+    margin: 0;
+}
+.prises__item{
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    display: flex; 
+}
+.prices_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px 68px;
+    width: 467px;
+    height: 732px;
+}
+.price__number__all__select{
+    color: #FBFBFC;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+     margin: 0;
+}
+.prices_background{
+    background-color: #DEEFE4; 
+}
+.prices_background_2{
+    background-color: #504DEE;
+    color: #FBFBFC;
+}
+.price__box__number{
+       display: flex;
+    flex-direction:column;
+}
+.prices__box {
+    padding-bottom:168px;
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.prices__btn{
+    background: #19191C;
+    color: #FBFBFC;
+    text-decoration: none;
+    padding: 12px 36px;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    gap: 10px;
+}
+.prices__btn__select{
+        background: #FBFBFC;
+        color: #504DEE;
+        text-decoration: none;
+        padding: 12px 36px;
+        font-size: 24px;
+        line-height: 26px;
+        font-weight: 700;
+}
+.footer{
+    background: #19191C;
+}
+.footer__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.sitemap__list{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400; 
+    color: #EFEFF2;
+    display: table-footer-group;
+    text-decoration: none;
+    column-gap: 12px;
+    list-style: none;
+}
+.logo__footer{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    padding: 59px 0 20px 0;
+    gap: 14px;
+    color: #FBFBFC;
+    text-decoration: none;
+}
+.footer__link{
+    color:#FBFBFC;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400; 
+    text-decoration: none;
+}
+.footer__link_left{
+   color: #FBFBFC;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    display: table-footer-group;
+    text-decoration: none;
+    padding-top: 28px;
+    
+}
+.sitemap__title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    color:#FBFBFC;
+    text-decoration:none; 
+    padding: 68px 0 28px 0;
+    margin: 0;
+}
+.sitemap{
+    align-items: center;
+    justify-content: space-between;
+}
+.sitemap__list{
+    margin-bottom: 12px;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    color:#6D6D77 ;
+    text-decoration: none; 
+    justify-content: space-between;
+    padding: 100px 0 62px 0;
+    gap: 28px;
+    
+}
+.copyright__link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #6D6D77;
+    text-decoration: none; 
+ 
+}
+.container__footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__bottom{
+    display: flex;
+    background: #19191C;
+    align-items: center;
+    justify-content: center;
+}
+.a:hover{
+    color: khaki;
+    text-decoration: underline;
+}
+.a:focus{
+    outline: 3px solid #504DEE;
+    outline-offset: 2px;
+}
+a:active{
+    color:blue;
+}
+.button:hover{
+    background-color: #504DEE;
+}
+.button:focus{
+    outline: 3px solid #504DEE;
+     outline-offset: 2px;
+}
+button:active {
+    color: blue;
+}
+
+@media screen and (max-width: 1439px) {
+    .copyright__link {
+        flex: 1 1 100%;
+        width: unset;
+        flex-wrap: wrap;
+    }
+    .header_wraper {
+      flex: 1 1 100%;
+      flex-wrap: wrap;
+    }
+    .profession__text {
+        flex: 1 1 100%;
+        width: unset;
+    }
+
+    .profession__item_1 {
+        flex: 1 1 100%;
+        width: unset;
+    }
+
+    .profession__item_2 {
+        flex: 1 1 100%;
+        width: unset;
+
+    }
+
+    .profession__item_3 {
+        flex: 1 1 100%;
+        width: unset;
+    }
+
+    .footer__info {
+        flex: 1 1 100%;
+        width: unset;
+        flex-wrap: wrap;
+    }
+
+    .sitemap {
+        flex: 1 1 100%;
+        width: unset;
+    }
+
+    .copyright {
+        flex: 1 1 100%;
+        flex-wrap: wrap;
+        width: unset;
+        padding: unset;
+    }
+
+    .container__footer {
+        flex-wrap: wrap;
+        gap: unset;
+    }
+    .prices__box{
+        flex-wrap: wrap;
+    }
+    .title{
+    flex-wrap: wrap;
+    width: unset;
+    }
+    .prises__item {
+        flex: 1 1 100%;
+    }
+
+    .footer__bottom {
+        flex: 1 1 100%;
+        flex-wrap: wrap;
+        width: unset;
+    }
+      
+    .nav__list {
+        flex: 1 1 100%;
+       
+    }
+    .offer__title{
+        flex: 1 1 100%;
+        width: unset;
+        flex-wrap: wrap;
+    }
+    .profession{
+        flex-wrap: wrap;
+    }
+    .profession__item__box{
+        flex-wrap: wrap;
+    }
+    .profession__discription{
+    flex: 1 1 100%;
+    width: unset;
+    }
+ .profession__counters__salary{
+    flex: 1 1 100%;
+ }
+ .profession__counters__number {
+    flex: 1 1 100%;
+ }
+ .header{
+    flex-wrap: wrap;
+ }
+ .header__box {
+     flex-wrap: wrap;
+}
+.container {
+    width: unset;
+}
+
+}
